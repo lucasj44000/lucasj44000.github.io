@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background-color: white;
+}
+
+img { max-width: 100%; }
+
+.l-wrapper{
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size:12px;
+}
+
+header{
+  background-color: white;
+  border-bottom:solid grey 1px;
+}
+
+nav{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:#D0021B;
+}
+
+li a:hover{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+.sub-infos{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #535353;
+}
+
+h4{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #535353; 
+}
+
+p{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 14px;
+}
+
+article{
+    text-align: center;
+}
+
+.event-objets{
+    margin-top: 20px;
+    height: 170px;	
+    width: 700px;		
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.details-objets{
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 400px;
+}
+
+.event-objets h4{
+    margin-top: 30px;
+}
+
+.event-objets p{
+    flex: 0.5;
+    
+}
+
+.positionnement-img-objet{
+    padding: 30px 0px 0px 30px;
+    height: 100px;	
+    width: 100px;
+}
+
+footer{
+    background-color: #4F4F4F;
+    height: 300Px;
+    margin-top: 50px;
+}
