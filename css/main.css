@@ -21,7 +21,7 @@
 }
 
 
-
+/*---------------Common----------------------*/
 header{
   background-color: white;
   border-bottom:solid grey 1px;
@@ -37,7 +37,13 @@ footer{
     margin-top: 50px;
 }
 
+nav{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
 
+/*-------------------------------------*/
 
 ul li{
     display: inline-block;
@@ -47,11 +53,7 @@ ul li{
     padding-left: 35px;
     font-size:12px;
 }
-nav{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-}
+
 span{
     font-family: 'Lato', sans-serif;
     color: black;
@@ -195,7 +197,12 @@ p{
     width: 200px;
 }
 
-/**************************Boutton*********************************/
+/*---------------Classe utilitaire----------------------*/
+.text-left{
+  text-align: left;
+}
+
+/*-----------------------Boutton-------------------------*/
 
 .Event-lieux-CTA{
   font-size: 14px;
@@ -210,6 +217,7 @@ p{
   padding: 10px 10px 10px 10px;
   text-decoration: none;
   border-style: none;
+  display: inline-block;
 }
 .Event-lieux-CTA:hover{
   background: #bdbdbd;
@@ -238,6 +246,7 @@ p{
   padding: 10px 10px 10px 10px;
   text-decoration: none;
   border-style: none;
+  display: inline-block;
 }
 
 .Event-lieux-CTA-focus:hover{
