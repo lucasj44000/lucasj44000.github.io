@@ -211,6 +211,11 @@ p{
     width: 200px;
 }
 
+
+.map{
+    text-align: center;
+}
+
 .Articles-associes {
     list-style: none;
     font-size: 15px;
