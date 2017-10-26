@@ -16,36 +16,52 @@
 }
 
 .l-wrapper{
-    margin: 20px auto;
-    max-width: 700px;
+    margin: 20px auto 0 auto;
+    max-width: 900px;
 }
 
-
-/*---------------Common----------------------*/
 header{
   background-color: white;
   border-bottom:solid grey 1px;
   font-weight: 350;
   height: 220px;
 }
+
 main{
     background-color: white;
 }
+
+
 footer{
     background-color: #4F4F4F;
-    height: 100Px;
+    height: 170px;
     margin-top: 50px;
-}
-
-nav{
-    text-align: center;
     font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
+    display: flex;
+    border-radius: 2px;
 }
 
-/*-------------------------------------*/
+footer div{
+    margin: 20px;
+}
 
-ul li{
+footer li{
+    list-style: none;
+    font-size:14px;
+    padding:5px;
+}
+
+footer a{
+    color: white;
+}
+
+.footer-inline-right{
+    border-right: 1px white solid;
+    padding-right: 40px;
+}
+
+
+nav li{
     display: inline-block;
     list-style: none;
     height: 50px;
@@ -54,6 +70,11 @@ ul li{
     font-size:12px;
 }
 
+nav{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
 span{
     font-family: 'Lato', sans-serif;
     color: black;
@@ -79,7 +100,7 @@ a{
     color: black;
 }
 
-a:hover{
+header a:hover{
     color:#D0021B;
 }
 
@@ -121,10 +142,6 @@ p{
     line-height: 20px;
     font-weight: 300;
 }
-
-
-
-
 .sub-infos{
     text-align: center;
 }
@@ -136,8 +153,6 @@ p{
     background-color: #F2F2F2;
     display: flex;
     border-radius: 2px;
-    max-width: 700px;
-    min-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -178,6 +193,7 @@ p{
 .details-objets{
     padding-left: 50px;
     padding-right: 50px;
+    max-width: 400px;
 }
 
 .positionnement-img-objet{
@@ -192,6 +208,7 @@ p{
     height: 120px;
     width: 200px;
 }
+
 
 /*---------------Classe utilitaire----------------------*/
 .text-left{
@@ -209,7 +226,7 @@ p{
   border-radius: 5px;
   color: #FFFFFF;
   font-size: 14px;
-  background: #bdbdbd;
+  background: #bdbdbd ;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
   border-style: none;
@@ -217,12 +234,12 @@ p{
 }
 
 .Event-lieux-CTA:hover{
-  background: #bdbdbd;
-  background-image: -webkit-linear-gradient(top, #bdbdbd, #adadad);
-  background-image: -moz-linear-gradient(top, #bdbdbd, #adadad);
-  background-image: -ms-linear-gradient(top, #bdbdbd, #adadad);
-  background-image: -o-linear-gradient(top, #bdbdbd, #adadad);
-  background-image: linear-gradient(to bottom, #bdbdbd, #adadad);
+  background: #bdbdbd ;
+  background-image: -webkit-linear-gradient(top, #bdbdbd , #adadad );
+  background-image: -moz-linear-gradient(top, #bdbdbd , #adadad );
+  background-image: -ms-linear-gradient(top, #bdbdbd , #adadad );
+  background-image: -o-linear-gradient(top, #bdbdbd , #adadad );
+  background-image: linear-gradient(to bottom, #bdbdbd , #adadad );
   text-decoration: none;
   border-style: none;
 }
@@ -246,12 +263,12 @@ p{
 }
 
 .Event-lieux-CTA-focus:hover{
-  background: #2171a3;
-  background-image: -webkit-linear-gradient(top, #2171a3, #174663);
-  background-image: -moz-linear-gradient(top, #2171a3, #174663);
-  background-image: -ms-linear-gradient(top, #2171a3, #174663);
-  background-image: -o-linear-gradient(top, #2171a3, #174663);
-  background-image: linear-gradient(to bottom, #2171a3, #174663);
+  background: #2171a3 ;
+  background-image: -webkit-linear-gradient(top, #2171a3 , #174663 );
+  background-image: -moz-linear-gradient(top, #2171a3 , #174663 );
+  background-image: -ms-linear-gradient(top, #2171a3 , #174663 );
+  background-image: -o-linear-gradient(top, #2171a3 , #174663 );
+  background-image: linear-gradient(to bottom, #2171a3 , #174663 );
   text-decoration: none;
   border-style: none;
 }
