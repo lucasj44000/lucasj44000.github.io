@@ -209,7 +209,7 @@ p{
 .details-objets{
     padding-left: 50px;
     padding-right: 50px;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .positionnement-img-objet{
@@ -254,6 +254,7 @@ p{
 /*-----------------------Boutton-------------------------*/
 
 .Event-lieux-CTA{
+    margin-right: 20px
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -267,6 +268,7 @@ p{
   text-decoration: none;
   border-style: none;
   display: inline-block;
+text-transform: uppercase;
 }
 
 .Event-lieux-CTA:hover{
