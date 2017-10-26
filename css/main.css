@@ -16,9 +16,11 @@
 }
 
 .l-wrapper{
-    margin: 20px auto 0 auto;
-    max-width: 900px;
+    margin: 20px auto;
+    max-width: 700px;
 }
+
+
 
 header{
   background-color: white;
@@ -26,42 +28,18 @@ header{
   font-weight: 350;
   height: 220px;
 }
-
 main{
     background-color: white;
 }
-
-
 footer{
     background-color: #4F4F4F;
-    height: 170px;
+    height: 100Px;
     margin-top: 50px;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    border-radius: 2px;
-}
-
-footer div{
-    margin: 20px;
-}
-
-footer li{
-    list-style: none;
-    font-size:14px;
-    padding:5px;
-}
-
-footer a{
-    color: white;
-}
-
-.footer-inline-right{
-    border-right: 1px white solid;
-    padding-right: 40px;
 }
 
 
-nav li{
+
+ul li{
     display: inline-block;
     list-style: none;
     height: 50px;
@@ -69,7 +47,6 @@ nav li{
     padding-left: 35px;
     font-size:12px;
 }
-
 nav{
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -100,7 +77,7 @@ a{
     color: black;
 }
 
-header a:hover{
+a:hover{
     color:#D0021B;
 }
 
@@ -142,6 +119,10 @@ p{
     line-height: 20px;
     font-weight: 300;
 }
+
+
+
+
 .sub-infos{
     text-align: center;
 }
@@ -152,10 +133,6 @@ p{
     width: 700px;
     background-color: #F2F2F2;
     display: flex;
-    border-radius: 2px;
-    min-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .LIEUX h3{
@@ -216,13 +193,34 @@ p{
     width: 200px;
 }
 
+/**************************Boutton*********************************/
 
 .Event-lieux-CTA{
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffffff;
+  font-size: 14px;
+  background: #bdbdbd;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  border-style: none;
 }
-.Event-lieux-CTA:hover{}
+.Event-lieux-CTA:hover{
+  background: #bdbdbd;
+  background-image: -webkit-linear-gradient(top, #bdbdbd, #adadad);
+  background-image: -moz-linear-gradient(top, #bdbdbd, #adadad);
+  background-image: -ms-linear-gradient(top, #bdbdbd, #adadad);
+  background-image: -o-linear-gradient(top, #bdbdbd, #adadad);
+  background-image: linear-gradient(to bottom, #bdbdbd, #adadad);
+  text-decoration: none;
+  border-style: none;
+}
+
+
 
 .Event-lieux-CTA-focus{
   font-size: 14px;
@@ -234,44 +232,19 @@ p{
   border-radius: 5px;
   color: #ffffffff;
   font-size: 14px;
-  background: #34d1c4;
-  padding: 10px 20px 10px 20px;
+  background: #2171a3;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
   border-style: none;
 }
 
 .Event-lieux-CTA-focus:hover{
-  background: #34d1c4;
-  background-image: -webkit-linear-gradient(top, #34d1c4, #219c90);
-  background-image: -moz-linear-gradient(top, #34d1c4, #219c90);
-  background-image: -ms-linear-gradient(top, #34d1c4, #219c90);
-  background-image: -o-linear-gradient(top, #34d1c4, #219c90);
-  background-image: linear-gradient(to bottom, #34d1c4, #219c90);
+  background: #2171a3;
+  background-image: -webkit-linear-gradient(top, #2171a3, #174663);
+  background-image: -moz-linear-gradient(top, #2171a3, #174663);
+  background-image: -ms-linear-gradient(top, #2171a3, #174663);
+  background-image: -o-linear-gradient(top, #2171a3, #174663);
+  background-image: linear-gradient(to bottom, #2171a3, #174663);
   text-decoration: none;
   border-style: none;
 }
-
-
-/*
-.btn {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  font-family: Arial;
-  color: #ffffffff;
-  font-size: 14px;
-  background: #34d1c4;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #34d1c4;
-  background-image: -webkit-linear-gradient(top, #34d1c4, #219c90);
-  background-image: -moz-linear-gradient(top, #34d1c4, #219c90);
-  background-image: -ms-linear-gradient(top, #34d1c4, #219c90);
-  background-image: -o-linear-gradient(top, #34d1c4, #219c90);
-  background-image: linear-gradient(to bottom, #34d1c4, #219c90);
-  text-decoration: none;
-}
-*/
