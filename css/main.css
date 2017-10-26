@@ -209,6 +209,9 @@ p{
     width: 200px;
 }
 
+.map{
+    text-align: center;
+}
 
 /*---------------Classe utilitaire----------------------*/
 .text-left{
