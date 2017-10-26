@@ -154,6 +154,7 @@ p{
     font-weight: 300;
     max-width: 70ch;
     margin: auto;
+    padding-bottom: 10px;
 
 }
 .sub-infos{
@@ -199,8 +200,14 @@ p{
 .objects h3{
   margin-left:auto;
   margin-right: auto;
-
 }
+
+.align-img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
 .event-objets h3{
     margin-top: 20px;
@@ -209,7 +216,7 @@ p{
 .details-objets{
     padding-left: 50px;
     padding-right: 50px;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .positionnement-img-objet{
@@ -251,9 +258,14 @@ p{
   text-align: left;
 }
 
+.text-center{
+  text-align: center;
+}
+
 /*-----------------------Boutton-------------------------*/
 
 .Event-lieux-CTA{
+    margin-right: 20px
   font-size: 14px;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -267,6 +279,7 @@ p{
   text-decoration: none;
   border-style: none;
   display: inline-block;
+text-transform: uppercase;
 }
 
 .Event-lieux-CTA:hover{
